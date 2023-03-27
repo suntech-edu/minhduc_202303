@@ -1,15 +1,10 @@
-1. Thẻ danh sách bất tuần tự
-    <ul>
-        <li>Nội dung 1</li>
-        <li>Nội dung 2</li>
-        <li>Nội dung 3</li>
-        <li>Nội dung 4</li>
-    </ul>
+1. Thẻ để nhúng css và thẻ nhúng javascript
+    <link rel="stylesheet" href="">
+        -rel: Qui định kiểu file sẽ nhúng vào trang web
+            stylesheet là kiểu css
+            type="text/css": Nó sẽ hiểu là chúng ta nhúng file css
+            href: Đường dẫn của file css
 
-2. Thẻ danh sách tuần tự
-    <ol>
-        <li>Nội dung 1</li>
-        <li>Nội dung 2</li>
-        <li>Nội dung 3</li>
-        <li>Nội dung 4</li>
-    </ol>
+    <script></script>
+        - type="text/javascript": quy định file nhúng vào hay code trong thẻ script là javascript
+        - src: Đường dẫn của file javascript
