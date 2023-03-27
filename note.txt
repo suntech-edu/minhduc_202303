@@ -1,8 +1,15 @@
-1. Thẻ pre
-    <pre>Nội dung</pre>
+1. Thẻ div và thẻ span
+    <div>Nội dung</div> 
+        có độ rộng bằng đúng độ rọng của trang
+        chiều cao bằng nội dung mà nó chứa
+    <span>Nội dung</span>
+        độ rộng bằng nội dung mà nó chứa
+        chiều cao bằng nội dung mà nó chứa
 
-    Giữ nguyên nội dung bên trong, thường dùng khi debug
 
-
-
-Bài 8 trùng bài 7
+2. Kiểu thẻ html
+    - Kiểu Block: Độ rộng = chính màn hình, trình duyệt
+    - Inline: Độ rộng = nội dung mà nó chứa
+    - Chiêu cao bằng nội dung mà nó chứa
+    - None: có nội dung nhưng không hiển thị lên trình duyệt
+        meta, link, script
