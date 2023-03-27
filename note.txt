@@ -1,10 +1,54 @@
-1. Thẻ để nhúng css và thẻ nhúng javascript
-    <link rel="stylesheet" href="">
-        -rel: Qui định kiểu file sẽ nhúng vào trang web
-            stylesheet là kiểu css
-            type="text/css": Nó sẽ hiểu là chúng ta nhúng file css
-            href: Đường dẫn của file css
+1. Thẻ table
+    <table>
+        <tr>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+        </tr>
 
-    <script></script>
-        - type="text/javascript": quy định file nhúng vào hay code trong thẻ script là javascript
-        - src: Đường dẫn của file javascript
+        <tr>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+        </tr>
+
+        <tr>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+            <td>Nội dung</td>
+        </tr>
+
+    </table>
+
+    thuộc tính:
+    table:
+        - bgcolor: định nghĩa màu nền của bảng
+        - boder: viền của bảng
+        - width: độ rộng của bảng
+        - height: chiều cao của bảng
+        - cellspacing: khoảng cách viền bảng ra bên ngoài
+        - cellpadding: khoảng cách viền bảng vào bên trong
+        - align: căn lề cho bảng: center, left, right
+    td:
+        - width: độ rộng của cột
+        - height: chiều cao của cột
+        - bgcolor: định nghĩa màu nền của cột
+        - align: căn lề cho cột: center, left, right
+        - valign: căn nội dung theo trên dưới của cột: top, middle, bottom
+        - clspan: gộp cột
+        - rowsppan: gộp dòng
