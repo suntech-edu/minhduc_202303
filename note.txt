@@ -1,22 +1,7 @@
-1. Tìm hiểu các thẻ H
-    H1 --> H6
-    <h1>Nội dung của thẻ</h1>
-    <h2>Nội dung của thẻ</h2>
-    <h3>Nội dung của thẻ</h3>
-    <h4>Nội dung của thẻ</h4>
-    <h5>Nội dung của thẻ</h5>
-    <h6>Nội dung của thẻ</h6>
-
-2. Quy luật của thẻ html
-
-    <thẻ mở></thẻ đóng>
-
-    tên thẻ đóng và thẻ mở luôn giống nhau
-    thuộc tính:
-        - Luôn nằm ở thể mở
-        - có thể có 1, nhiều hoặc không có thẻ nào
-        - đặt tên thuộc tính tự do
-    Thẻ không có thẻ đóng
-        - dấu dóng thẻ nằm ngay trên chính thẻ đó
-3. Thẻ xuống dòng 
-    <br/>
+1. Thẻ dành cho font chữ
+    b: <b>Nội dung</b> --> chỉ in đậm nội dung
+    strong: <strong>Nội dung</strong> ==> SEO -> nhấn mạnh nội dung trong thẻ
+    font: <font size="số" color="màu">Nội dung</font> --> thay đổi kích cỡ và màu sắc của nội dung bên trong
+    u: <u>Nội dung</u> --> thẻ gạch chân
+    p: <p>Nội dung</p> --> thể hiện đoạn văn, không cần thẻ xuống dòng
+    i: <i>Nội dung</i> --> in nghiêng nội dung
