@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Thẻ table
     <table>
         <tr>
@@ -52,3 +53,4 @@
         - valign: căn nội dung theo trên dưới của cột: top, middle, bottom
         - clspan: gộp cột
         - rowsppan: gộp dòng
+=======
