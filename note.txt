@@ -1,7 +1,5 @@
-1. Thẻ dành cho font chữ
-    b: <b>Nội dung</b> --> chỉ in đậm nội dung
-    strong: <strong>Nội dung</strong> ==> SEO -> nhấn mạnh nội dung trong thẻ
-    font: <font size="số" color="màu">Nội dung</font> --> thay đổi kích cỡ và màu sắc của nội dung bên trong
-    u: <u>Nội dung</u> --> thẻ gạch chân
-    p: <p>Nội dung</p> --> thể hiện đoạn văn, không cần thẻ xuống dòng
-    i: <i>Nội dung</i> --> in nghiêng nội dung
+1. Thẻ liên kết
+   Cú pháp: <a href="" target="">Nội dung</a>
+   - href: chỉ định trang, liên kết, đối tượng sẽ chuyển đến
+   - target: __blank: quy định về kiểu chuyển trang
+   - title: mô tả chi tiết cho liên kết
