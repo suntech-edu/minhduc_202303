@@ -1,0 +1,22 @@
+1. Tìm hiểu các thẻ H
+    H1 --> H6
+    <h1>Nội dung của thẻ</h1>
+    <h2>Nội dung của thẻ</h2>
+    <h3>Nội dung của thẻ</h3>
+    <h4>Nội dung của thẻ</h4>
+    <h5>Nội dung của thẻ</h5>
+    <h6>Nội dung của thẻ</h6>
+
+2. Quy luật của thẻ html
+
+    <thẻ mở></thẻ đóng>
+
+    tên thẻ đóng và thẻ mở luôn giống nhau
+    thuộc tính:
+        - Luôn nằm ở thể mở
+        - có thể có 1, nhiều hoặc không có thẻ nào
+        - đặt tên thuộc tính tự do
+    Thẻ không có thẻ đóng
+        - dấu dóng thẻ nằm ngay trên chính thẻ đó
+3. Thẻ xuống dòng 
+    <br/>
