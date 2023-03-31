@@ -52,4 +52,3 @@
         - align: căn lề cho cột: center, left, right
         - valign: căn nội dung theo trên dưới của cột: top, middle, bottom
         - clspan: gộp cột
-        - rowsppan: gộp dòng
