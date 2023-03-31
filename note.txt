@@ -1,4 +1,10 @@
 
+1. Thẻ pre
+    <pre>Nội dung</pre>
+
+    Giữ nguyên nội dung bên trong, thường dùng khi debug
+
+
 1. Thẻ danh sách bất tuần tự
     <ul>
         <li>Nội dung 1</li>
