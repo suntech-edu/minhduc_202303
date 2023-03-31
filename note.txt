@@ -1,4 +1,29 @@
+
 1. Thẻ pre
     <pre>Nội dung</pre>
 
     Giữ nguyên nội dung bên trong, thường dùng khi debug
+
+
+1. Thẻ danh sách bất tuần tự
+    <ul>
+        <li>Nội dung 1</li>
+        <li>Nội dung 2</li>
+        <li>Nội dung 3</li>
+        <li>Nội dung 4</li>
+    </ul>
+
+2. Thẻ danh sách tuần tự
+    <ol>
+        <li>Nội dung 1</li>
+        <li>Nội dung 2</li>
+        <li>Nội dung 3</li>
+        <li>Nội dung 4</li>
+    </ol>
+
+1. Thẻ liên kết
+   Cú pháp: <a href="" target="">Nội dung</a>
+   - href: chỉ định trang, liên kết, đối tượng sẽ chuyển đến
+   - target: __blank: quy định về kiểu chuyển trang
+   - title: mô tả chi tiết cho liên kết
+
