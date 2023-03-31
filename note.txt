@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Thẻ để nhúng css và thẻ nhúng javascript
     <link rel="stylesheet" href="">
         -rel: Qui định kiểu file sẽ nhúng vào trang web
@@ -8,3 +9,5 @@
     <script></script>
         - type="text/javascript": quy định file nhúng vào hay code trong thẻ script là javascript
         - src: Đường dẫn của file javascript
+=======
+
