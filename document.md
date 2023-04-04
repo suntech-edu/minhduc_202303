@@ -33,3 +33,13 @@
         ==> độ ưu tiên của id > class > tên thẻ
     - Từ !important
         ==> có độ ưu tiên cao nhất bất kể nó đứng ở đâu
+
+05. Cú pháp định nghĩa css cho một thẻ
+
+    selector {
+    	css-attribute-name-1: value1;
+    	css-attribute-name-2: value2;
+    	css-attribute-name-3: value3;
+    	...
+    	css-attribute-name-n: valuen;
+    }
