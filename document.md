@@ -22,3 +22,14 @@
                 <link rel="stylesheet" href="style.css">
         - khai báo trực tiếp tại thẻ(inline)
              ex: sử dụng thuộc tính style ngay trong thẻ mở của thẻ
+
+04. Độ ưu tiên trong css
+
+    - Nội tuyến
+    - Ngoại tuyến
+    - Inline
+        ==> thuộc tính được khai báo sau cùng được ưu tiên
+    - độ ưu tiên của class & id & tên thẻ
+        ==> độ ưu tiên của id > class > tên thẻ
+    - Từ !important
+        ==> có độ ưu tiên cao nhất bất kể nó đứng ở đâu
