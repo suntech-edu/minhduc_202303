@@ -59,3 +59,4 @@
         ex: *{}
     - Nhóm các selector bằng dấu ","
         ex: h1, h2, h3{}
+    }
