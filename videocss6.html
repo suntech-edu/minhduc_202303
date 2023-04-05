@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các selector trong css</title>
+    <style>
+        *{
+            border: 1px solid #000;
+        }
+
+        h1{
+            color: red;
+        }
+
+        .name{
+            color: yellow;
+        }
+
+        #name{
+            color: green;
+        }
+
+        input [type="text"]{
+            color: brown;
+        }
+
+        input [type="email"]{
+            color: gray;
+        }
+
+        h1,h2,h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="name">Suntech.edu.vn</h1>
+    <h2 id="name">Suntech.edu.vn</h2>
+    <h3>Suntech.edu.vn</h3>
+
+    <input type="text" value="Vu Minh Duc">
+    <br>
+    <br>
+    <input type="email" value="vuminhduc3008@gmail.com">
+</body>
+</html>
