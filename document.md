@@ -59,4 +59,13 @@
         ex: *{}
     - Nhóm các selector bằng dấu ","
         ex: h1, h2, h3{}
-    }
+
+07. Select theo thứ tự của thẻ
+- :fist-of-type  --> lấy ra thẻ đầu tiên trong danh sách
+    ex: p:fist-of-type{}
+
+- :last-of-type  --> lấy ra thẻ cuối cùng trong danh sách
+    ex: p:last-of-type{}
+
+- :nth-of-type(n)  --> lấy ra thẻ thứ n trong danh sách
+    ex: p:nth-of-type(n){}
