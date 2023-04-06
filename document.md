@@ -93,21 +93,31 @@
     }
     --> click chọn 1 check box trong input type="checkbox"
 
-09. Css Pseudo element
-    ::first-letter{
-            "css"
-        }
-    --> Chữ cái đầu tiên của nội dung
+    09. Css Pseudo element
+        ::first-letter{
+                "css"
+            }
+        --> Chữ cái đầu tiên của nội dung
 
-    ::first-line{
-            "css"
-        }
-    --> Dòng đầu tiên của nội dung
+        ::first-line{
+                "css"
+            }
+        --> Dòng đầu tiên của nội dung
 
-    ::before{
-            content:"nội dung muốn thêm vào trước nội dung sẵn có";
-        }
+        ::before{
+                content:"nội dung muốn thêm vào trước nội dung sẵn có";
+            }
 
-    ::after{
-            content:"nội dung muốn thêm vào sau nội dung sẵn có";
+        ::after{
+                content:"nội dung muốn thêm vào sau nội dung sẵn có";
+            }
+
+10. Parent selector
+    Dùng trong trường hợp có nhiều thẻ, class lồng nhau, parenr selector có tác dụng lấy ra phần tử có cha trực tiếp là class được chọn.
+    selectorParent > selectChirend
+
+    ex:     
+        .root > p{
+            css
         }
+        
