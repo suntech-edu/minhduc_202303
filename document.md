@@ -69,3 +69,26 @@
 
 - :nth-of-type(n)  --> lấy ra thẻ thứ n trong danh sách
     ex: p:nth-of-type(n){}
+
+
+08. Selector theo hành động của người dùng:
+
+    - :hover{
+        'code css'
+        }
+    --> chỉ con trỏ chuột đến nội dung. 
+
+    - :active{
+        'code css'
+    }
+    --> click chuột vào nội dung. 
+
+    - :focus{
+        'code css'
+    }
+    --> click chọn nội dung(thường dùng cho input). 
+
+    - :checked{
+        'code css'
+    }
+    --> click chọn 1 check box trong input type="checkbox"
