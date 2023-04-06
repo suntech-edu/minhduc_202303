@@ -92,3 +92,22 @@
         'code css'
     }
     --> click chọn 1 check box trong input type="checkbox"
+
+09. Css Pseudo element
+    ::first-letter{
+            "css"
+        }
+    --> Chữ cái đầu tiên của nội dung
+
+    ::first-line{
+            "css"
+        }
+    --> Dòng đầu tiên của nội dung
+
+    ::before{
+            content:"nội dung muốn thêm vào trước nội dung sẵn có";
+        }
+
+    ::after{
+            content:"nội dung muốn thêm vào sau nội dung sẵn có";
+        }
