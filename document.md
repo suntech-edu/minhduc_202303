@@ -127,4 +127,20 @@
             Dùng để quy định CSS giống nhau cho một nhóm thẻ HTML có chung các đặc điểm
     
     - ID: Tồn tại duy nhất 1 id trên 1 trang, không được phép định nghĩa 2 lần
+
+12. Các đơn vị đo lường trong css
+
+    Được dùng để quy định kích thước, chiều rộng, chiều cao, cỡ chữ hay nội dung của thẻ html...
+
+    * Đơn vị tuyệt đối: cố định, không thay đổi, không phụ thuộc vào màn hình hay thẻ chứa nó
+        - px
+        - pt
+        - cm
+        - mm
+        - in
+    * Đơn vị tương đối: sẽ biến đổi khi chạy trên các thiết bị có màn hình khác nhau và phụ thuộc vào thẻ chứa nó
+        - %
+        - em
+        - rem
+
         
