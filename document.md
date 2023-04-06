@@ -120,4 +120,11 @@
         .root > p{
             css
         }
+
+11. Phân biệt "class" và "id"
+
+    - Class: Được phép định nghĩa nhiều lần trên cùng 1 trang,
+            Dùng để quy định CSS giống nhau cho một nhóm thẻ HTML có chung các đặc điểm
+    
+    - ID: Tồn tại duy nhất 1 id trên 1 trang, không được phép định nghĩa 2 lần
         
