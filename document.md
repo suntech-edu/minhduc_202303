@@ -43,3 +43,88 @@
     	...
     	css-attribute-name-n: valuen;
     }
+
+06. Các loại selector trong css
+
+*Các loại selector thường dùng
+    - selector theo tên thẻ
+        ex: h1{}
+    - selector theo tên class
+        ex: .name{}
+    - selector theo tên id
+        ex: #name{}
+    - selector theo attribute của thẻ html
+        ex: input [type="text"]{}
+    - * chọn tất cả các thẻ
+        ex: *{}
+    - Nhóm các selector bằng dấu ","
+        ex: h1, h2, h3{}
+
+07. Select theo thứ tự của thẻ
+- :fist-of-type  --> lấy ra thẻ đầu tiên trong danh sách
+    ex: p:fist-of-type{}
+
+- :last-of-type  --> lấy ra thẻ cuối cùng trong danh sách
+    ex: p:last-of-type{}
+
+- :nth-of-type(n)  --> lấy ra thẻ thứ n trong danh sách
+    ex: p:nth-of-type(n){}
+
+
+08. Selector theo hành động của người dùng:
+
+    - :hover{
+        'code css'
+        }
+    --> chỉ con trỏ chuột đến nội dung. 
+
+    - :active{
+        'code css'
+    }
+    --> click chuột vào nội dung. 
+
+    - :focus{
+        'code css'
+    }
+    --> click chọn nội dung(thường dùng cho input). 
+
+    - :checked{
+        'code css'
+    }
+    --> click chọn 1 check box trong input type="checkbox"
+
+    09. Css Pseudo element
+        ::first-letter{
+                "css"
+            }
+        --> Chữ cái đầu tiên của nội dung
+
+        ::first-line{
+                "css"
+            }
+        --> Dòng đầu tiên của nội dung
+
+        ::before{
+                content:"nội dung muốn thêm vào trước nội dung sẵn có";
+            }
+
+        ::after{
+                content:"nội dung muốn thêm vào sau nội dung sẵn có";
+            }
+
+10. Parent selector
+    Dùng trong trường hợp có nhiều thẻ, class lồng nhau, parenr selector có tác dụng lấy ra phần tử có cha trực tiếp là class được chọn.
+    selectorParent > selectChirend
+
+    ex:     
+        .root > p{
+            css
+        }
+
+11. Phân biệt "class" và "id"
+
+    - Class: Được phép định nghĩa nhiều lần trên cùng 1 trang,
+            Dùng để quy định CSS giống nhau cho một nhóm thẻ HTML có chung các đặc điểm
+    
+    - ID: Tồn tại duy nhất 1 id trên 1 trang, không được phép định nghĩa 2 lần
+        
