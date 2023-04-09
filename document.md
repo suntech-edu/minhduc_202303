@@ -148,4 +148,7 @@
     - biến khia báo trong :root có thể dùng được ở mọi nơi(biến toàn cục).
     - biến khai báo trong selector thì chỉ có tác dụng với các thành phần con của selector đó(biến cục bộ)
 
+17. Ghi đè một biến trong css
+
+    Việc ghi đè hoàn toàn không ảnh hưởng gì đến giá trị của biến ban đầu, nó chỉ ảnh hưởng trong phạm vi của selector chứa biến đã được ghi đè.
         
