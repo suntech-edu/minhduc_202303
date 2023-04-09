@@ -1,0 +1,14 @@
+:root {
+    --border-right: 5px solid brown;
+}
+
+ul {
+    background: orange;
+    border-right: var(--border-right);
+}
+
+ul ul {
+    background: greenyellow;
+    width: 100px;
+    --border-right: 5px solid yellow;
+}

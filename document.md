@@ -127,4 +127,28 @@
             Dùng để quy định CSS giống nhau cho một nhóm thẻ HTML có chung các đặc điểm
     
     - ID: Tồn tại duy nhất 1 id trên 1 trang, không được phép định nghĩa 2 lần
+
+12. Các đơn vị đo lường trong css
+
+    Được dùng để quy định kích thước, chiều rộng, chiều cao, cỡ chữ hay nội dung của thẻ html...
+
+    * Đơn vị tuyệt đối: cố định, không thay đổi, không phụ thuộc vào màn hình hay thẻ chứa nó
+        - px
+        - pt
+        - cm
+        - mm
+        - in
+    * Đơn vị tương đối: sẽ biến đổi khi chạy trên các thiết bị có màn hình khác nhau và phụ thuộc vào thẻ chứa nó
+        - %
+        - em
+        - rem
+
+16. Phạm vi sử dụng của biến trong css
+
+    - biến khia báo trong :root có thể dùng được ở mọi nơi(biến toàn cục).
+    - biến khai báo trong selector thì chỉ có tác dụng với các thành phần con của selector đó(biến cục bộ)
+
+17. Ghi đè một biến trong css
+
+    Việc ghi đè hoàn toàn không ảnh hưởng gì đến giá trị của biến ban đầu, nó chỉ ảnh hưởng trong phạm vi của selector chứa biến đã được ghi đè.
         
