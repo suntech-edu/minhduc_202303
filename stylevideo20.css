@@ -1,0 +1,8 @@
+body {
+    background-color: orangered;
+    background-image: url(img/mickey.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 100px;
+}

@@ -152,7 +152,7 @@
 
     Việc ghi đè hoàn toàn không ảnh hưởng gì đến giá trị của biến ban đầu, nó chỉ ảnh hưởng trong phạm vi của selector chứa biến đã được ghi đè.
 
-18. Thuộc tính của text:
+18, 19. Thuộc tính của text:
 	color: màu của text
 		ex: color: #000; (mã màu)
 	
@@ -161,7 +161,18 @@
 
 	text-decoration: trang trí thêm cho text
 		ex: text-decoration: overline; (thêm dòng kẻ phía trên cho text)
-        
+
 	text-transform: quy định kiểu chữ viết hoa hay viết thường
 		ex: text-transform: uppercase; (chữ viết hoa)
+
+20. Thuộc tính của background
+
+    background-color: quy định màu của nền
+    background-image: quy định ảnh nền
+    background-repeat: quy định sự lặp lại của ảnh nền
+    background-position: quy định vị trí của ảnh
+    background-attachment: fixed; giữ nguyên vị trí của nội dung khi cuộn trang
+    background-size: 100px; quy định kích thước của nội dung
+
+
         
