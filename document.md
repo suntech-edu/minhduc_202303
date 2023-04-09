@@ -143,4 +143,9 @@
         - em
         - rem
 
+16. Phạm vi sử dụng của biến trong css
+
+    - biến khia báo trong :root có thể dùng được ở mọi nơi(biến toàn cục).
+    - biến khai báo trong selector thì chỉ có tác dụng với các thành phần con của selector đó(biến cục bộ)
+
         

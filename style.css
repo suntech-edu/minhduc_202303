@@ -1,7 +1,21 @@
+:root {
+    --text-color: red;
+}
+
+.item {
+    background-color: greenyellow;
+    --borderLeft: 5px solid red;
+}
+
+h1 {
+    color: var(--text-color);
+}
+
 h2 {
-    color: yellow;
+    color: var(--text-color);
 }
 
 h3 {
-    color: yellow;
+    color: var(--text-color);
+    border-left: var(--borderLeft);
 }
