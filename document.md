@@ -151,4 +151,17 @@
 17. Ghi đè một biến trong css
 
     Việc ghi đè hoàn toàn không ảnh hưởng gì đến giá trị của biến ban đầu, nó chỉ ảnh hưởng trong phạm vi của selector chứa biến đã được ghi đè.
+
+18. Thuộc tính của text:
+	color: màu của text
+		ex: color: #000; (mã màu)
+	
+	text-align: căn chỉnh nội dung theo chiều ngang
+		ex: text-align: left; (vị trí)
+
+	text-decoration: trang trí thêm cho text
+		ex: text-decoration: overline; (thêm dòng kẻ phía trên cho text)
+        
+	text-transform: quy định kiểu chữ viết hoa hay viết thường
+		ex: text-transform: uppercase; (chữ viết hoa)
         
