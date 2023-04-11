@@ -1,0 +1,29 @@
+span {
+    background-image: url(img/sprite.png);
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    display: block;
+    float: left;
+    margin: 5px;
+}
+
+span.fb {
+    background-position: -80px -85px;
+}
+
+span.twt {
+    background-position: -80px -310px;
+}
+
+span.snap {
+    background-position: -560px -310px;
+}
+
+span.pin {
+    background-position: -785px -310px;
+}
+
+span.ytb {
+    background-position: -325px -85px;
+}
