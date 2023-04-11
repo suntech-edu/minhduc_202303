@@ -43,3 +43,7 @@
     	...
     	css-attribute-name-n: valuen;
     }
+
+21. Sprite css
+
+    thay vì load từng ảnh nhỏ ta đưa nó vào 1 ảnh lớn và load lên trang 1 lần duy nhất, khi nào dùng đến sẽ lấy ra bằng thuộc tính "background-position"
