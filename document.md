@@ -44,6 +44,9 @@
     	css-attribute-name-n: valuen;
     }
 
+21. Sprite css
+
+    thay vì load từng ảnh nhỏ ta đưa nó vào 1 ảnh lớn và load lên trang 1 lần duy nhất, khi nào dùng đến sẽ lấy ra bằng thuộc tính "background-position"
 06. Các loại selector trong css
 
 *Các loại selector thường dùng
@@ -164,6 +167,7 @@
 
 	text-transform: quy định kiểu chữ viết hoa hay viết thường
 		ex: text-transform: uppercase; (chữ viết hoa)
+        
 
 20. Thuộc tính của background
 
