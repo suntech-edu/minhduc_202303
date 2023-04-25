@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-grow</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            /* justify-content: center; */
+            background-color: orange;
+            width: 1000px;
+        }
+
+        .item {
+            width: 130px;
+            height: 130px;
+            background-color: aquamarine;
+            border: 1px solid #ccc;
+        }
+
+        .item:nth-of-type(1) {
+            flex-grow: 1;
+        }
+
+        .item:nth-of-type(2) {
+            flex-grow: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+</body>
+</html>
